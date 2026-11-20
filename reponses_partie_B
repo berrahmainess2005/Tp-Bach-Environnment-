@@ -1,0 +1,66 @@
+TP N° 2 : Introduction aux scripts Bash et à l'analyse des données environnementales avec Python
+
+==================================================
+EXERCICE 1 : Découverte de Bash et Git Bash
+==================================================
+Question : Quel est l'intérêt d'utiliser des commandes Bash plutôt que de réaliser toutes ces opérations manuellement avec l'explorateur Windows ?
+
+Réponse :
+L'intérêt principal est l'automatisation des tâches répétitives, un gain de temps considérable, la réduction des erreurs humaines et la possibilité de manipuler rapidement un grand nombre de fichiers et dossiers.
+
+==================================================
+EXERCICE 2 : Création et exécution d'un script Bash
+==================================================
+Question : Quelle est la différence entre exécuter une commande directement dans le terminal et exécuter plusieurs commandes enregistrées dans un script Bash ?
+
+Réponse :
+Exécuter une commande dans le terminal réalise une action unique et immédiate qui doit être retapée à chaque fois. En revanche, un script Bash (.sh) regroupe une suite de commandes sauvegardées dans un fichier, permettant de les exécuter automatiquement, en série et de manière reproductible en une seule fois.
+
+==================================================
+EXERCICE 3 : Automatisation de l'exécution d'un programme Python
+==================================================
+Question 3 : Expliquer comment Bash permet d'automatiser l'exécution d'un programme Python.
+
+Réponse :
+Le script Bash agit comme un chef d'orchestre : il prépare d'abord l'environnement (création de dossiers, affichage de messages, gestion des fichiers) puis appelle directement l'interpréteur Python (via la commande "python analyse.py") pour lancer le traitement des données automatiquement sans intervention manuelle.
+
+Question 4 : Proposer une application de cette automatisation dans un laboratoire environnemental.
+
+Réponse :
+Dans un laboratoire environnemental, on peut automatiser le traitement quotidien des relevés de capteurs (qualité de l'air ou de l'eau) : le script Bash crée automatiquement le dossier daté du jour, sauvegarde les données brutes, lance un script Python pour calculer les moyennes et détecter les seuils de pollution, puis génère un rapport final
+PARTIE B - EXERCICES 4 A 8
+
+Exercice 4 :
+1. Bibliotheque : ensemble de fonctions et modules prets a l'emploi.
+2. import : pour charger une bibliotheque dans le programme.
+3. Python vs NumPy : Python est generaliste, NumPy est specialise dans le calcul numerique rapide.
+4. Role de Pandas : charger, nettoyer et analyser les donnees tabulaires (CSV/DataFrame).
+5. Role de Seaborn : creer des graphiques statistiques clairs.
+
+Exercice 5 :
+1. Lignes : 12.
+2. Colonnes : 6.
+3. Variables quantitatives : Temperature, Humidite, PM25, PM10.
+4. Variables qualitatives : Station, Mois.
+5. Temperature max : 26 °C.
+6. PM2.5 max : 32.
+7. Valeurs manquantes : non.
+
+Exercice 6 :
+1. Array NumPy : tableau de valeurs homogènes pour calculs rapides.
+2. Liste vs Array : l'array est homogène et permet les calculs directs element par element.
+3. Ecart-type : mesure la dispersion des valeurs autour de la moyenne.
+4. Interet en environnement : resumer les mesures, comparer les sites et detecter les depassements.
+
+Exercice 7 :
+A. Histogramme : classe la plus representee autour des valeurs moyennes (selon les bins).
+B. Boxplot : Station_C a les valeurs et la dispersion les plus elevees ; montre mediane, dispersion et extremes.
+C. Scatterplot : tendance globalement croissante selon les stations ; pas de causalite directe prouvee.
+
+Exercice 8 :
+1. Coefficient a : pente (variation de PM2.5 pour +1 °C).
+2. Coefficient b : ordonnee a l'origine (valeur estimee a 0 °C).
+3. Prediction a 25 °C : a * 25 + b.
+4. Correlation != causalite : deux variables peuvent varier ensemble sans lien direct de cause a effet.
+5. Autres variables : humidite, vent, pluie, trafic, industrie.
+.
