@@ -1,0 +1,14 @@
+Station,Mois,Temperature,Humidite,PM25,PM10
+Station_A,Janvier,18,65,12,25
+Station_A,Fevrier,20,60,16,30
+Station_A,Mars,23,55,21,38
+Station_A,Avril,25,50,18,35
+Station_B,Janvier,19,70,10,22
+Station_B,Fevrier,21,65,13,27
+Station_B,Mars,24,58,18,34
+Station_B,Avril,26,52,22,40
+Station_C,Janvier,17,75,20,38
+Station_C,Fevrier,19,70,25,45
+Station_C,Mars,22,63,28,50
+Station_C,Avril,24,60,32,58
+```[span_6](start_span)[span_6](end_span)
