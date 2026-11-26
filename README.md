@@ -4,7 +4,8 @@
 Projet réalisé dans le cadre du TP N° 2 (Module : Logiciels libres et Open Science) portant sur l'automatisation des tâches avec Bash et l'analyse de données environnementales avec Python[span_5](start_span)[span_5](end_span).
 
 ## 2. Membres du groupe
-- **Étudiant(e) :** [berrahma iness]
+- **Étudiant(e) :** [berrahma iness Amis Nour El Houda 
+Abdeddaim Hanane ]
 
 ## 3. Thème environnemental
 Automatisation du traitement et analyse des données environnementales[span_6](start_span)[span_6](end_span).
