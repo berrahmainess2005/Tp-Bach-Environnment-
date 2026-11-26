@@ -50,3 +50,17 @@ Sur le jeu de données `qualite_air.csv` (3 stations, 4 mois) :
 3. **Valeur estimée de PM2.5 pour 25 °C :** Calculée par `a * 25 + b` (environ **23,0 µg/m³** sur les 12 observations du TP).
 4. **Corrélation implique-t-elle causalité :** Non ; une corrélation mesure une association statistique ou linéaire, pas nécessairement un lien de cause à effet.
 5. **Autres variables environnementales influençant PM2.5 :** L'humidité relative, la vitesse et la direction du vent, les précipitations, les sources d'émission (trafic, industrie, chauffage) et les variations saisonnières.
+6. ## Partie C — Exercice 9 : Automatisation complète avec Bash et Python
+* **Chaîne automatisée (`analyse.sh`) :** Permet de créer automatiquement le dossier `results` (`mkdir -p ../results`), d'exécuter le script d'analyse Python (`exploration.py` / `analyse_complete.py`) et d'afficher des messages de suivi à chaque étape en une seule commande.
+* **Enregistrement des résultats (`resultats.txt`) :** Le programme Python enregistre les statistiques descriptives et résumés dans `../results/resultats.txt` afin de conserver une trace exploitable sans ressaisie manuelle.
+
+## Questions de synthèse
+1. **Différence entre Bash et Python :** Bash est un interpréteur de commandes/shell orienté système, fichiers et automatisation de tâches/programmes, tandis que Python est un langage de programmation complet très adapté au traitement de données, aux calculs scientifiques et à la visualisation.
+2. **Rôle de NumPy dans le traitement des données :** Fournir des tableaux numériques performants et des fonctions mathématiques/statistiques (moyenne, écart-type, corrélation, régression) rapides sur des données chiffrées.
+3. **Pourquoi utiliser Pandas plutôt que traiter manuellement un fichier CSV :** Pandas automatise la lecture, l'indexation, le filtrage, la détection des valeurs manquantes et le calcul statistique sur des tableaux, évitant les erreurs et lenteurs du traitement manuel.
+4. **Différence entre un histogramme et un boxplot :** L'histogramme montre la répartition/fréquence des valeurs d'une variable continue par classes (intervalles), tandis que le boxplot résume la distribution par la médiane, les quartiles, l'étendue/dispersion et les valeurs atypiques (pratique pour comparer plusieurs groupes).
+5. **À quoi sert une matrice de corrélation :** À visualiser d'un coup d'œil les coefficients de corrélation linéaire entre toutes les paires de variables numériques afin d'identifier celles qui varient ensemble.
+6. **Utilité de la régression linéaire :** Modéliser la relation linéaire entre une variable explicative et une variable cible afin d'analyser la tendance et d'estimer/prédire des valeurs.
+7. **Association de Bash et Python pour automatiser un travail scientifique :** Bash orchestre l'environnement (dossiers, enchaînement des étapes, exécution répétée ou planifiée) et appelle les scripts Python qui réalisent le calcul, l'analyse et la génération des sorties.
+8. **Pourquoi privilégier les logiciels libres et Open Source dans les laboratoires de recherche :** Ils offrent la transparence du code (reproductibilité scientifique), l'absence de coûts de licence bloquants, la pérennité des formats/outils et une large communauté scientifique active.
+
