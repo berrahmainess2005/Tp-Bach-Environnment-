@@ -1,0 +1,35 @@
+============================================================
+RESULTATS STATISTIQUES - TP N° 2 (QUALITE DE L'AIR)
+============================================================
+Fichier source : Data/qualite_air.csv
+Nombre d'observations : 12 lignes (3 stations x 4 mois)
+Stations : Station_A, Station_B, Station_C
+Mois : Janvier, Fevrier, Mars, Avril
+Valeurs manquantes : 0
+
+--- STATISTIQUES DESCRIPTIVES ---
+1. Temperature (°C) :
+   - Moyenne : 21.75
+   - Minimum : 17.00 (Station_C, Janvier)
+   - Maximum : 26.00 (Station_B, Avril)
+
+2. Humidite (%) :
+   - Moyenne : 61.92
+   - Minimum : 50.00 (Station_A, Avril)
+   - Maximum : 75.00 (Station_C, Janvier)
+
+3. PM25 (µg/m³) :
+   - Moyenne : 20.25
+   - Minimum : 10.00 (Station_B, Janvier)
+   - Maximum : 32.00 (Station_C, Avril)
+
+4. PM10 (µg/m³) :
+   - Moyenne : 36.83
+   - Minimum : 22.00 (Station_B, Janvier)
+   - Maximum : 58.00 (Station_C, Avril)
+
+--- CORRELATION ET REGRESSION LINEAIRE (Temperature -> PM25) ---
+- Coefficient de correlation (r) : environ +0.40 (correlation positive moderee)
+- Modele : PM25 = a * Temperature + b
+- Estimation pour Temperature = 25 °C : environ 23.0 µg/m³
+============================================================
